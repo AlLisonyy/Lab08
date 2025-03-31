@@ -10,6 +10,10 @@ output: github_document
 First, let's load the necessary packages:  
 
 ```{r load-packages, message = FALSE}
+#install.packages("robotstxt")
+
+library(robotstxt)
+paths_allowed("https://collections.ed.ac.uk/art)")
 library(tidyverse) 
 library(skimr)
 ```
